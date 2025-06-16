@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hledání podle tří podmínek s výstupem do stránky</title>
+
+  <style>
+  h3 {
+    margin-left: 20px;
+  }
+</style>
+</head>
+
+<body>
+
+<h3>Výsledky hledání:</h3>
+<div id="vystup"></div>
+
+<script>
+  // Funkce linearSearch s callbackem - najde první prvek vyhovující podmínce
+  function linearSearch(arr, callback) {
+    for (let i = 0; i < arr.length; i++) {
+      if (callback(arr[i])) {
+        return i;
+      }
+    }
+    return -1;
+  }
+
+  const cisla = [10, 50, 80, 999, 1200, 60, 1500];
+
+  function jeVetsiNez75(hodnota) {
+    return hodnota > 75;
+  }
+
+  function jeVetsiNez1000(hodnota) {
+    return hodnota > 1000;
+  }
+
+  function jeVetsiNez2000(hodnota) {
+    return hodnota > 2000;
+  }
+
+  const indexVetsiNez75 = linearSearch(cisla, jeVetsiNez75);
+  const indexVetsiNez1000 = linearSearch(cisla, jeVetsiNez1000);
+  const indexVetsiNez2000 = linearSearch(cisla, jeVetsiNez2000);
+
+  const vystupDiv = document.getElementById("vystup");
+
+  function vypisVysledek(podminka, index, pole) {
+    if (index !== -1) {
+      return `První číslo větší než ${podminka} je ${pole[index]} na indexu ${index}.`;
+    } else {
+      return `Žádné číslo větší než ${podminka} nebylo nalezeno. Index: -1`;
+    }
+  }
+
+  const vysledky = [
+    vypisVysledek(75, indexVetsiNez75, cisla),
+    vypisVysledek(1000, indexVetsiNez1000, cisla),
+    vypisVysledek(2000, indexVetsiNez2000, cisla)
+  ];
+
+  vystupDiv.innerHTML = vysledky.join("<br>");
+</script>
+
+</body>
+</html>
