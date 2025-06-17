@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>Vyhledání sudých čísel v PHP</title>
+  <title>Linear Search Sudá Čísla PHP</title>
 </head>
 <body>
 

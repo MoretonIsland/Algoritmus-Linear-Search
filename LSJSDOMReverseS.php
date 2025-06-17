@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Reverzní hledání - Výpis do DOM</title>
+  <title>Linear Search Reverse</title>
 
   <style>
   h3 {

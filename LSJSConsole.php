@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Test linearSearch v konzoli</title>
+  <title>LinearSearch Console.log</title>
 
   <style>
   h3, p {

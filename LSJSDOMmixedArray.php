@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Linear Search - smíchaná data s výstupem na stránce</title>
+  <title>Linear Search MixedArray</title>
 </head>
 <body>
 

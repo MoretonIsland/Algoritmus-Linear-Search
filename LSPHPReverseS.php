@@ -2,11 +2,11 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>Reverse search v PHP</title>
+  <title>Linear Search Reverse PHP</title>
 </head>
 <body>
 
-<h2>Výsledky reverzního hledání (PHP):</h2>
+<h3>Výsledky reverzního hledání (PHP):</h3>
 
 <?php
 // Funkce pro hledání odzadu (reverse search)

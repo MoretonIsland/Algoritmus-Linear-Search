@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8">
-  <title>Hledání podle tří podmínek v PHP</title>
+  <title>Linear Search Callback PHP</title>
 </head>
 <body>
 

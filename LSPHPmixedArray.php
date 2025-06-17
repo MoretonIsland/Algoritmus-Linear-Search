@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Linear Search v PHP – smíchaná data</title>
+  <title>Linear Search MixedArray PHP</title>
 </head>
 <body>
 

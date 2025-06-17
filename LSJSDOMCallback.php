@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Hledání podle tří podmínek s výstupem do stránky</title>
+  <title>Linear Search Callback</title>
 
   <style>
   h3 {

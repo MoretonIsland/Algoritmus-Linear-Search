@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Test linearSearch v JS (ovoce)</title>
+  <title>Linear Search Text</title>
 </head>
 <body>
 

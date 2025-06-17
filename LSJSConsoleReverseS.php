@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Reverse search - Console.log</title>
+  <title>Reverse search Reverse Console.log</title>
 </head>
 <body>
 

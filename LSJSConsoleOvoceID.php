@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Hledání ovoce podle ID</title>
+  <title>Linear Search - podle ID</title>
 </head>
 <body>
 

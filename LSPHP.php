@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Test linearSearch v PHP</title>
+  <title>Linear Search PHP</title>
 </head>
 <body>
 

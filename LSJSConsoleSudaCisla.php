@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
-  <title>Vyhledání sudých čísel - Console</title>
+  <title>Linear Search Sudá čísla Console.log</title>
 </head>
 <body>
 
