@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h3>Výsledky reverzního hledání (PHP):</h3>
+<h3>Výsledky reverzního hledání:</h3>
 
 <?php
 // Funkce pro hledání odzadu (reverse search)

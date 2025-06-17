@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h3>Výsledky hledání v PHP:</h3>
+<h3>Výsledky hledání Callback</h3>
 
 <?php
 function linearSearch(array $arr, callable $callback): int {

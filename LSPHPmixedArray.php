@@ -50,7 +50,7 @@ $result3 = linearSearch($items, $search3);
 $result4 = linearSearch($items, $search4);
 
 // Výpis výsledků na stránku
-echo "<h2>Výsledky sekvenčního hledání v PHP (smíchaná data)</h2>";
+echo "<h3>Výsledky sekvenčního hledání MixedArray</h3>";
 echo "<p>Index 'Praha': $result1</p>";
 echo "<p>Index čísla 210: $result2</p>";
 echo "<p>Index data '2024-07-07': $result3</p>";
